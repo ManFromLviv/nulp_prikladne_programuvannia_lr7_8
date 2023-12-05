@@ -70,7 +70,7 @@ public class FlowersInputMethods {
     static public int inputFreshnessLevel(int countTab) {
         String lineTab = Command.getLineTab(countTab);
         int number;
-        System.out.print(getTextFromFileMenu(countTab, pathFreshnessLevelFlower));
+        System.out.print(getTextFromFileMenu(countTab, pathInputFreshnessLevelFlower));
         while (true) {
             String message = "Уведіть рівень свіжості квітки";
             number = Command.inputNumber(lineTab, message);

@@ -10,7 +10,7 @@ public class Menu {
     public static final String pathSubMenu1And2 = "src/menu/text_menu/subMenu1And2.txt";
     public static final String pathInputTypeFlower = "src/menu/text_menu/inputTypeFlower.txt";
     public static final String pathInputColorFlower = "src/menu/text_menu/inputColorFlower.txt";
-    public static final String pathFreshnessLevelFlower = "src/menu/text_menu/inputFreshnessLevelFlower.txt";
+    public static final String pathInputFreshnessLevelFlower = "src/menu/text_menu/inputFreshnessLevelFlower.txt";
 
     public static void runMenu() throws InterruptedException {
         try {
