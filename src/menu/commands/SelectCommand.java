@@ -33,7 +33,7 @@ public class SelectCommand implements Command {
         boolean isExit = false;
         do {
             System.out.print(getTextFromFileMenu(countTab, pathHeadMenu));
-            String message = "Оберіть пункт, що стосується дій із букетами";
+            String message = "Ваш вибір";
             int number = Command.inputNumber(lineTab, message);
             if (number > countCommandHeadMenu || number <= 0) {
                 System.out.println(lineTab + "\tОберіть правильний пункт!");
