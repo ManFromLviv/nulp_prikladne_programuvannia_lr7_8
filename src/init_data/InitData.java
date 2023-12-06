@@ -72,14 +72,14 @@ public class InitData {
             }
 
             int sizeFlowers = flowers.size();
-            StringBuilder dataFlowers = new StringBuilder("").append(sizeFlowers).append("\n");
+            StringBuilder dataFlowers = new StringBuilder().append(sizeFlowers).append("\n");
             for (AbstractFlower flower : flowers) {
                 dataFlowers.append(flower.getInitData());
             }
             createFileFlowersOrAccessories(initPathFlowers, dataFlowers.toString());
 
             int sizeAccessories = accessories.size();
-            StringBuilder dataAccessories = new StringBuilder("").append(sizeAccessories).append("\n");
+            StringBuilder dataAccessories = new StringBuilder().append(sizeAccessories).append("\n");
             for (Accessorie accessorie : accessories) {
                 dataAccessories.append(accessorie.getInitData());
             }
