@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82f37fb1-1af8-42b0-a4dc-c381ada8a3f1" name="Changes" comment="Init">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lr6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lr7_8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessories/Accessorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessories/Accessorie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flowers/ValidFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowers/ValidFlower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/commands/flowers/input_data/FlowersInputMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/flowers/input_data/FlowersInputMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lr7_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lr7_8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init_data/accessories/accessories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/accessories/accessories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init_data/flowers/flowers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/flowers/flowers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/commands/SelectCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/SelectCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/CreateBouquetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/CreateBouquetCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/EditBouquetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/EditBouquetCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/ExitFromCreateOrEditBouquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/ExitFromCreateOrEditBouquet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/SelectCreateOrEditBouquetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/SelectCreateOrEditBouquetCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/text_menu/subMenu1And2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/text_menu/subMenu1And2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,32 +47,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/Downloads/Internet Download Manager/Compressed/apache-log4j-1.2.17/log4j-1.2.17.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\LR4_8\untitled\src\data_initialization\bouquet" />
@@ -81,7 +89,7 @@
       <recent name="bouquet" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in lr7_8">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lr7_8" />
@@ -129,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in lr7_8" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in lr7_8" />
         <item itemvalue="JUnit.CommandTest" />
         <item itemvalue="JUnit.InitDataTest" />
       </list>
@@ -156,6 +164,8 @@
       <workItem from="1701899450809" duration="1197000" />
       <workItem from="1701906875980" duration="112000" />
       <workItem from="1701907032166" duration="10439000" />
+      <workItem from="1701925121299" duration="1274000" />
+      <workItem from="1701926459364" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -220,7 +230,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/CreateBouquetCommand.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -230,7 +240,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/menu/commands/SelectCommand.java</url>
-          <line>55</line>
+          <line>59</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

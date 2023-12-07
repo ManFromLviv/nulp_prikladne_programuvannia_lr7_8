@@ -11,6 +11,8 @@ import menu.commands.bouquet.create_or_edit_bouquet_commands.flowers.RemoveFlowe
 
 import java.util.ArrayList;
 
+import static menu.Menu.logger;
+
 public class SelectCreateOrEditBouquetCommand implements Command {
     String lineTab;
     int countTab;
@@ -39,6 +41,7 @@ public class SelectCreateOrEditBouquetCommand implements Command {
 
     @Override
     public void execute(ArrayList<Bouquet> bouquets) throws Exception {
+        logger.info("Обрано пункт для " + ((isCreateBouquet) ? "створення" : "редагування") + " букету № " + number);
         switch (number) {
             case 1: new AppendFlowerCommand(index, countTab, bouquets, flowers, accessories); break;
             case 2: new RemoveFlowerCommand(index, countTab, bouquets); break;

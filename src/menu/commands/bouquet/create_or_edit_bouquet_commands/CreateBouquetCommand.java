@@ -8,6 +8,7 @@ import menu.commands.Command;
 import java.util.ArrayList;
 
 import static files.Files.getTextFromFileMenu;
+import static menu.Menu.logger;
 import static menu.Menu.pathSubMenu1And2;
 
 public class CreateBouquetCommand implements Command {
@@ -32,6 +33,7 @@ public class CreateBouquetCommand implements Command {
             String message = "Оберіть пункт для створюваного букету";
             int number = Command.inputNumber(lineTab, message);
             if (number > countCommandSubMenu1And2 || number <= 0) {
+                logger.info("Було введено помилковий пункт, головне меню для створення повторюється");
                 System.out.println(lineTab + "\tОберіть правильний пункт!");
             } else if (new SelectCreateOrEditBouquetCommand(true, number, bouquets.size() - 1, countTab + 1, bouquets, flowers, accessories).getIsExit()) {
                 break;

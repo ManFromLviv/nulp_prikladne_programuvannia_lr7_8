@@ -12,6 +12,7 @@ import menu.commands.flowers.*;
 import java.util.ArrayList;
 
 import static files.Files.getTextFromFileMenu;
+import static menu.Menu.logger;
 import static menu.Menu.pathHeadMenu;
 
 public class SelectCommand implements Command {
@@ -36,9 +37,12 @@ public class SelectCommand implements Command {
             String message = "Ваш вибір";
             int number = Command.inputNumber(lineTab, message);
             if (number > countCommandHeadMenu || number <= 0) {
+                logger.info("Було введено помилковий пункт, головне меню повторюється");
                 System.out.println(lineTab + "\tОберіть правильний пункт!");
                 continue;
             }
+
+            logger.info("Обрано головного меню № " + number);
 
             int countTabRunSubcommand = countTab + 1;
             switch (number) {

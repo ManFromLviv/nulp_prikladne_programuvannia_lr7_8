@@ -8,6 +8,7 @@ import menu.commands.Command;
 import java.util.ArrayList;
 
 import static files.Files.getTextFromFileMenu;
+import static menu.Menu.logger;
 import static menu.Menu.pathSubMenu1And2;
 
 public class EditBouquetCommand implements Command {
@@ -27,7 +28,7 @@ public class EditBouquetCommand implements Command {
     @Override
     public void execute(ArrayList<Bouquet> bouquets) throws Exception {
         if (bouquets.isEmpty()) {
-            System.out.println(lineTab + "Зараз немає ні одного букета!");
+            System.out.println(lineTab + "Зараз немає ні одного1 букета!");
             return;
         }
 
@@ -39,6 +40,7 @@ public class EditBouquetCommand implements Command {
                 message = "Оберіть пункт для редагування букету";
                 int numberCommand = Command.inputNumber(lineTab, message);
                 if (numberCommand > countCommandSubMenu1And2 || numberCommand <= 0) {
+                    logger.info("Було введено помилковий пункт, головне меню для редагування повторюється");
                     System.out.println(lineTab + "\tОберіть правильний пункт!");
                 } else if (new SelectCreateOrEditBouquetCommand(false, numberCommand, number - 1, countTab + 1, bouquets, flowers, accessories).getIsExit()) {
                     break;

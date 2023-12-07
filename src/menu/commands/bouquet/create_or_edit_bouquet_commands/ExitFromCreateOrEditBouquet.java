@@ -5,6 +5,8 @@ import menu.commands.Command;
 
 import java.util.ArrayList;
 
+import static menu.Menu.logger;
+
 public class ExitFromCreateOrEditBouquet implements Command {
     int countTab;
     String lineTab;
@@ -22,6 +24,7 @@ public class ExitFromCreateOrEditBouquet implements Command {
 
     @Override
     public void execute(ArrayList<Bouquet> bouquets) {
+        logger.info("Вихід з меню " + ((isCreateBouquet) ? "створення" : "редагування") + " букету № " + (index + 1));
         if (bouquets.get(index).getCountFlowers() == 0) {
             System.out.println(lineTab + "\tУ букеті не було виявлено квітів, букет не буде збережено!");
             bouquets.remove(index);
