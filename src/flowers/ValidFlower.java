@@ -1,14 +1,14 @@
 package flowers;
 
 public interface ValidFlower {
-    int MAX_STEM_LENGTH = 100;
-    int MIN_STEM_LENGTH = 10;
+    int maxStemLength = 100;
+    int minStemLength = 10;
 
-    int MAX_FRESHNESS_LEVEL = 3;
-    int MIN_FRESHNESS_LEVEL = 0;
+    int maxFreshnessLevel = 3;
+    int minFreshnessLevel = 0;
 
-    double MAX_PRICE = 1000;
-    double MIN_PRICE = 5;
+    double maxPrice = 1000;
+    double minPrice = 5;
 
     enum FLOWER_COLOR {
         RED, ORANGE, YELLOW,
@@ -56,14 +56,14 @@ public interface ValidFlower {
     }
 
     static boolean isValidStemLength(int stemLength) {
-        return stemLength <= MAX_STEM_LENGTH && stemLength >= MIN_STEM_LENGTH;
+        return stemLength <= maxStemLength && stemLength >= minStemLength;
     }
 
     static boolean isValidFreshnessLevel(int freshnessLevel) {
-        return freshnessLevel <= MAX_FRESHNESS_LEVEL && freshnessLevel >= MIN_FRESHNESS_LEVEL;
+        return freshnessLevel <= maxFreshnessLevel && freshnessLevel >= minFreshnessLevel;
     }
 
     static boolean isValidPrice(double price) {
-        return price <= MAX_PRICE && price >= MIN_PRICE;
+        return price <= maxPrice && price >= minPrice;
     }
 }

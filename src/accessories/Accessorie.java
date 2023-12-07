@@ -61,6 +61,4 @@ public class Accessorie {
         stringBuilder.append("Ціна = ").append(price).append(" }");
         return stringBuilder.toString();
     }
-
-
 }

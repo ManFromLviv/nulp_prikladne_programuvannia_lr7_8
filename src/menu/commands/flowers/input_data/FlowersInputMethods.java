@@ -55,7 +55,7 @@ public class FlowersInputMethods {
 
     static public int inputStemLength(int countTab) {
         String lineTab = Command.getLineTab(countTab);
-        String validRangeStr = new StringBuilder("").append(MIN_STEM_LENGTH).append("; ").append(MAX_STEM_LENGTH).toString();
+        String validRangeStr = new StringBuilder("").append(minStemLength).append("; ").append(maxStemLength).toString();
         int number;
         while (true) {
             String message = "Уведіть довжину стебла квітки з діапазону [" + validRangeStr + "]";
@@ -83,7 +83,7 @@ public class FlowersInputMethods {
 
     static public double inputPriceFlower(int countTab) {
         String lineTab = Command.getLineTab(countTab);
-        String validRangeStr = new StringBuilder("").append(MIN_PRICE).append("; ").append(MAX_PRICE).toString();
+        String validRangeStr = new StringBuilder("").append(minPrice).append("; ").append(maxPrice).toString();
         double number;
         while (true) {
             String message = "Уведіть ціну квітки в діапазоні [" + validRangeStr + "]";
