@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82f37fb1-1af8-42b0-a4dc-c381ada8a3f1" name="Changes" comment="Init">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lr7_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lr7_8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init_data/accessories/accessories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/accessories/accessories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/bouquet/bouquet_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init_data/flowers/flowers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/init_data/flowers/flowers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/commands/SelectCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/SelectCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/CreateBouquetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/CreateBouquetCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/EditBouquetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/EditBouquetCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/ExitFromCreateOrEditBouquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/ExitFromCreateOrEditBouquet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/SelectCreateOrEditBouquetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/commands/bouquet/create_or_edit_bouquet_commands/SelectCreateOrEditBouquetCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/text_menu/subMenu1And2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/text_menu/subMenu1And2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +152,9 @@
       <workItem from="1701906875980" duration="112000" />
       <workItem from="1701907032166" duration="10439000" />
       <workItem from="1701925121299" duration="1274000" />
-      <workItem from="1701926459364" duration="1022000" />
+      <workItem from="1701926459364" duration="1059000" />
+      <workItem from="1701933460677" duration="1678000" />
+      <workItem from="1702144289048" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -215,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701906976913</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Init">
+      <option name="closed" value="true" />
+      <created>1701927513227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701927513227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
